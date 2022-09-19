@@ -77,7 +77,7 @@ class TodoItem extends React.Component {
 
 TodoItem.propTypes = {
   todo: PropTypes.shape({
-    id: PropTypes.number,
+    id: PropTypes.string,
     completed: PropTypes.bool,
     title: PropTypes.string,
   }).isRequired,
